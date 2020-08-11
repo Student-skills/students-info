@@ -164,3 +164,20 @@ body {
     text-align: center !important;
     margin-top: 30px;
 }
+.login{
+    align-items: center !important;
+    margin-top: 40px;
+    width: 30%;
+    height: 30%;
+}
+.flex-sb-m{
+    justify-content: space-between;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #b2b2b2;
+  }
