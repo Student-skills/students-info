@@ -181,3 +181,46 @@ input[type=text] {
     border: none;
     border-bottom: 1px solid #b2b2b2;
   }
+.resume{
+    width: 70%;
+    height: 80%;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 295px;
+    margin-bottom: 150px;
+}
+.resume1{
+    width: 70%;
+    height: 80%;
+    text-align: center;
+}
+.resume2{
+    width: 70%;
+    height: 80%;
+    text-align: center;
+}
+.centered{
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.profile-img{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.first{
+    position: absolute;
+    left: 5%;
+    top: 15%;
+}
+.second{
+    position: absolute;
+    right: 5%;
+    top: 15%;
+}
