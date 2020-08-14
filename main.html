@@ -26,18 +26,18 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#community">Community<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#community" style="color: #061A40;">Community<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#programs">Schedule<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#programs" style="color: #061A40;">Schedule<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#about" style="color: #061A40;">About<span class="sr-only">(current)</span></a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto align-items-start mb-3 mb-lg-0">
                 <li class="nav-item active">
-                    <a class="nav-link btn subscribe-btn" href="register.html" style="border-radius: 50%;">Log in<span
+                    <a class="nav-link btn subscribe-btn" href="register.html" style="border-radius: 50%; color: #061A40;">Log in<span
                             class="sr-only">(current)</span></a>
                 </li>
             </ul>
@@ -53,21 +53,21 @@
                 <!-- <h2 class="programs-header pb-3">Dersler</h2> -->
                 <div class="container-fluid text-center">
                     <div class="row">
-                        <div class="col-12 col-sm-3 col-lg-3 mb-4 mb-lg-0">
+                        <div class="col-md-12">
+                            <img src="img/tech_background.webp" width="100%" height="45%">
+                            <!-- <div class="col-12 col-sm-3 col-lg-3 mb-4 mb-lg-0">
                             <div class="programs-card">
                                 <h2 class="programs-h4">Fundamentals</h2>
-
-                                <!-- <h4 class="f-c-price">3000₼</h4> -->
+                                
                             </div>
                         </div>
                         <div class="col-12 col-sm-3 col-lg-3 mb-4 mb-lg-0">
                             <div class="programs-card s">
                                 <h2 class="programs-h4">Full stack python</h2>
 
-                                <!-- <h4 class="f-c-price mt-1">2000₼</h4> -->
                             </div>
+                        </div> -->
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -80,39 +80,50 @@
             <div class="container-fluid text-center">
                 <div class="row">
                     <div class="col-12 col-sm-3 col-lg-3 mb-4 mb-lg-0">
-                        <input class="form-control" type="name" placeholder="Student Name">
+                        <input class="form-control" type="text" placeholder="Student Name">
                     </div>
                     <div class="col-12 col-sm-3 col-lg-3 mb-4 mb-lg-0">
-                        <input class="form-control" type="surname" placeholder="Student Surname">
+                        <input class="form-control" type="text" placeholder="Student Surname">
                     </div>
                     <div class="col-12 col-sm-3 col-lg-3 mb-4 mb-lg-0">
-                        <input class="form-control" type="class" placeholder="Student class">
+                        <input class="form-control" type="text" placeholder="Student class">
                     </div>
                     <div class="col-12 col-sm-3 col-lg-3 mb-4 mb-lg-0">
-                        <a href="result.html"><button type="submit" id="search" style="width: 150px; height: 40px; border-radius: 50%;">Search</button></a>
+                        <select class="custom-select selection" id="inputGroupSelect01">
+                            <option selected>Choose...</option>
+                            <option value="1">Fundamentals</option>
+                            <option value="2">Full stack python</option>
+                            
+                          </select>
                     </div>
 
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <a href="result.html"><button type="submit" id="search"
+                            style="width: 150px; height: 40px; border-radius: 50%; margin-top: 20px;">Search</button></a>
+                    </div>
                 </div>
             </div>
         </div>
 
         <div class="programs-container mt-3 mb-5" id="programs">
-            <h2 class="programs-header pb-3">Tasklar</h2>
+            <h2 class="programs-header pb-3"></h2>
             <div class="container-fluid">
                 <div class="row">
-                    
+
                 </div>
             </div>
         </div>
 
         <div class="final-container text-center">
             <div class="col-12">
-                <img src="mini-logo.png" alt="" class="footer-logo mt-3 mb-3">
+                <img src="" alt="" class="footer-logo">
             </div>
         </div>
         <div class="final-container text-center">
             <div class="col-12">
-                <p class="footer-header">E-Education.</p>
+                <p class="footer-header">{tech}academy</p>
                 <p class="copyright">Copyright © E-Education. Privacy Policy.</p>
                 <p class="copyright-two">All Rights Reserved.</p>
             </div>
