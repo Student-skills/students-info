@@ -26,18 +26,18 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#community" style="color: #061A40;">Community<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#community">Community<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#programs" style="color: #061A40;">Schedule<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#programs">Schedule<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#about" style="color: #061A40;">About<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto align-items-start mb-3 mb-lg-0">
                 <li class="nav-item active">
-                    <a class="nav-link btn subscribe-btn" href="register.html" style="border-radius: 50%; color: #061A40;">Log in<span
+                    <a class="nav-link btn subscribe-btn" href="register.html">Log in<span
                             class="sr-only">(current)</span></a>
                 </li>
             </ul>
@@ -46,64 +46,40 @@
     <div class="main">
 
         <div class="header-container mb-5">
-            <!--<h1 class="header pl-5 ml-5 pt-5">Bu gune</h1>
-            <h1 class="header-part-two pl-5 ml-4 mb-5 pb-5">Teyin olunan dersler.</h1>-->
-            <h1 class="header pl-5 ml-5 pt-5" style="color: #061A40;">Student Tracker</h1>
-            <div class="programs-container mb-5 mt-5 pt-5" id="programs">
-                <!-- <h2 class="programs-header pb-3">Dersler</h2> -->
-                <div class="container-fluid text-center">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <img src="img/tech_background.webp" width="100%" height="45%">
-                            <!-- <div class="col-12 col-sm-3 col-lg-3 mb-4 mb-lg-0">
-                            <div class="programs-card">
-                                <h2 class="programs-h4">Fundamentals</h2>
-                                
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-3 col-lg-3 mb-4 mb-lg-0">
-                            <div class="programs-card s">
-                                <h2 class="programs-h4">Full stack python</h2>
-
-                            </div>
-                        </div> -->
-                        </div>
-                    </div>
-                </div>
+            <div class="layer d-flex justify-content-center align-items-center">
+                <h1 class="text-center text-white display-1">Student Tracker</h1>
             </div>
         </div>
 
 
 
         <div class="programs-container mt-3 mb-5" id="programs">
-            <h2 class="programs-header pb-3">Search Student</h2>
-            <div class="container-fluid text-center">
-                <div class="row">
-                    <div class="col-12 col-sm-3 col-lg-3 mb-4 mb-lg-0">
-                        <input class="form-control" type="text" placeholder="Student Name">
-                    </div>
-                    <div class="col-12 col-sm-3 col-lg-3 mb-4 mb-lg-0">
-                        <input class="form-control" type="text" placeholder="Student Surname">
-                    </div>
-                    <div class="col-12 col-sm-3 col-lg-3 mb-4 mb-lg-0">
-                        <input class="form-control" type="text" placeholder="Student class">
-                    </div>
-                    <div class="col-12 col-sm-3 col-lg-3 mb-4 mb-lg-0">
-                        <select class="custom-select selection" id="inputGroupSelect01">
-                            <option selected>Choose...</option>
-                            <option value="1">Fundamentals</option>
-                            <option value="2">Full stack python</option>
-                            
-                          </select>
-                    </div>
+            <div class="container text-center">
+                <h2 class="programs-header pb-3">Search Student</h2>
+                <form action="/result.html">
+                    <div class="form-row">
+                        <div class="col-12 col-sm-6 col-lg-2 mb-4 mb-lg-0">
+                            <input class="form-control" type="text" placeholder="Student Name">
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-2 mb-4 mb-lg-0">
+                            <input class="form-control" type="text" placeholder="Student Surname">
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-2 mb-4 mb-lg-0">
+                            <input class="form-control" type="text" placeholder="Student class">
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-2 mb-4 mb-lg-0">
+                            <select class="custom-select selection" id="inputGroupSelect01">
+                                <option selected>Choose...</option>
+                                <option value="1">Fundamentals</option>
+                                <option value="2">Full stack python</option>
 
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <a href="result.html"><button type="submit" id="search"
-                            style="width: 150px; height: 40px; border-radius: 50%; margin-top: 20px;">Search</button></a>
+                            </select>
+                        </div>
+                        <div class="col-sm-12 col-lg-3 d-flex justify-content-center align-items-center">
+                            <button type="submit" id="search" class="m-0 btn btn-primary w-100">Search</button>
+                        </div>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
 
